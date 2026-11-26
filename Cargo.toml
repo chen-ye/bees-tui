@@ -1,0 +1,15 @@
+[package]
+name = "bees-tui"
+version = "0.1.0"
+edition = "2024"
+description = "Terminal monitor for the bees btrfs deduplication service"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/chen-ye/bees-tui"
+homepage = "https://github.com/chen-ye/bees-tui"
+keywords = ["btrfs", "bees", "deduplication", "tui", "ratatui"]
+categories = ["command-line-utilities", "filesystem"]
+
+[dependencies]
+clap = { version = "4.6.10", features = ["derive"] }
+ratatui = "0.30.2"
